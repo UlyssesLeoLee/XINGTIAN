@@ -1,0 +1,6 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>AIWEB browser oracle fixture</title></head>
+<body><form id="f"><label for="name">Name</label><input id="name" value="old"><button id="submit" type="submit">Submit</button></form><p id="result"></p>
+<script>
+  const form = document.querySelector('#f');
+  form.addEventListener('submit', event => { event.preventDefault(); document.querySelector('#result').textContent = document.querySelector('#name').value; });
+</script></body></html>

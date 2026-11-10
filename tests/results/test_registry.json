@@ -1,0 +1,3630 @@
+{
+  "project": "AIPWE",
+  "version": "0.1.0",
+  "upstream": "AIPWE-DD-001 v1.1",
+  "revision_date": "2026-11-10",
+  "requirements": [
+    {
+      "id": "BR-01",
+      "category": "BR",
+      "basic_ids": [
+        "BD-ARC-01"
+      ],
+      "design_ids": [
+        "DD-001"
+      ],
+      "plan_id": "PLAN-BR-01",
+      "state": "未执行"
+    },
+    {
+      "id": "BR-02",
+      "category": "BR",
+      "basic_ids": [
+        "BD-ARC-02",
+        "BD-ARC-05"
+      ],
+      "design_ids": [
+        "DD-002",
+        "DD-005"
+      ],
+      "plan_id": "PLAN-BR-02",
+      "state": "未执行"
+    },
+    {
+      "id": "BR-03",
+      "category": "BR",
+      "basic_ids": [
+        "BD-MOD-07"
+      ],
+      "design_ids": [
+        "DD-013"
+      ],
+      "plan_id": "PLAN-BR-03",
+      "state": "未执行"
+    },
+    {
+      "id": "BR-04",
+      "category": "BR",
+      "basic_ids": [
+        "BD-ARC-02"
+      ],
+      "design_ids": [
+        "DD-002"
+      ],
+      "plan_id": "PLAN-BR-04",
+      "state": "未执行"
+    },
+    {
+      "id": "BR-05",
+      "category": "BR",
+      "basic_ids": [
+        "BD-MOD-20"
+      ],
+      "design_ids": [
+        "DD-026"
+      ],
+      "plan_id": "PLAN-BR-05",
+      "state": "未执行"
+    },
+    {
+      "id": "BR-06",
+      "category": "BR",
+      "basic_ids": [
+        "BD-ARC-04"
+      ],
+      "design_ids": [
+        "DD-004"
+      ],
+      "plan_id": "PLAN-BR-06",
+      "state": "未执行"
+    },
+    {
+      "id": "BR-07",
+      "category": "BR",
+      "basic_ids": [
+        "BD-MOD-18"
+      ],
+      "design_ids": [
+        "DD-024"
+      ],
+      "plan_id": "PLAN-BR-07",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-001",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-01",
+        "BD-DAT-01",
+        "BD-IF-01",
+        "BD-MOD-29"
+      ],
+      "design_ids": [
+        "DD-007",
+        "DD-032",
+        "DD-036",
+        "DD-070"
+      ],
+      "plan_id": "PLAN-FR-001",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-002",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-01",
+        "BD-DAT-02",
+        "BD-DAT-05"
+      ],
+      "design_ids": [
+        "DD-007",
+        "DD-033",
+        "DD-073"
+      ],
+      "plan_id": "PLAN-FR-002",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-003",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-02"
+      ],
+      "design_ids": [
+        "DD-008"
+      ],
+      "plan_id": "PLAN-FR-003",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-004",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-03",
+        "BD-MOD-17",
+        "BD-MOD-29",
+        "BD-MOD-30"
+      ],
+      "design_ids": [
+        "DD-009",
+        "DD-023",
+        "DD-070",
+        "DD-071"
+      ],
+      "plan_id": "PLAN-FR-004",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-005",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-04",
+        "BD-MOD-30"
+      ],
+      "design_ids": [
+        "DD-010",
+        "DD-071"
+      ],
+      "plan_id": "PLAN-FR-005",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-006",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-03"
+      ],
+      "design_ids": [
+        "DD-009"
+      ],
+      "plan_id": "PLAN-FR-006",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-007",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-03"
+      ],
+      "design_ids": [
+        "DD-009"
+      ],
+      "plan_id": "PLAN-FR-007",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-008",
+      "category": "FR",
+      "basic_ids": [
+        "BD-ARC-02",
+        "BD-MOD-05"
+      ],
+      "design_ids": [
+        "DD-002",
+        "DD-011"
+      ],
+      "plan_id": "PLAN-FR-008",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-009",
+      "category": "FR",
+      "basic_ids": [
+        "BD-ARC-06",
+        "BD-MOD-21"
+      ],
+      "design_ids": [
+        "DD-006",
+        "DD-027"
+      ],
+      "plan_id": "PLAN-FR-009",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-010",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-16",
+        "BD-DAT-02",
+        "BD-MOD-31",
+        "BD-DAT-05",
+        "BD-IF-10"
+      ],
+      "design_ids": [
+        "DD-022",
+        "DD-033",
+        "DD-072",
+        "DD-073",
+        "DD-074"
+      ],
+      "plan_id": "PLAN-FR-010",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-011",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-05",
+        "BD-SEC-10"
+      ],
+      "design_ids": [
+        "DD-011",
+        "DD-077"
+      ],
+      "plan_id": "PLAN-FR-011",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-012",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-05",
+        "BD-SEC-10"
+      ],
+      "design_ids": [
+        "DD-011",
+        "DD-077"
+      ],
+      "plan_id": "PLAN-FR-012",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-013",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-07",
+        "BD-DAT-03",
+        "BD-MOD-27"
+      ],
+      "design_ids": [
+        "DD-013",
+        "DD-034",
+        "DD-068"
+      ],
+      "plan_id": "PLAN-FR-013",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-014",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-08",
+        "BD-DAT-03",
+        "BD-MOD-27"
+      ],
+      "design_ids": [
+        "DD-014",
+        "DD-034",
+        "DD-068"
+      ],
+      "plan_id": "PLAN-FR-014",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-015",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-06",
+        "BD-MOD-26"
+      ],
+      "design_ids": [
+        "DD-012",
+        "DD-067"
+      ],
+      "plan_id": "PLAN-FR-015",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-016",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-08"
+      ],
+      "design_ids": [
+        "DD-014"
+      ],
+      "plan_id": "PLAN-FR-016",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-017",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-07"
+      ],
+      "design_ids": [
+        "DD-013"
+      ],
+      "plan_id": "PLAN-FR-017",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-018",
+      "category": "FR",
+      "basic_ids": [
+        "BD-ARC-04",
+        "BD-SEC-02",
+        "BD-SEC-11"
+      ],
+      "design_ids": [
+        "DD-004",
+        "DD-046",
+        "DD-078"
+      ],
+      "plan_id": "PLAN-FR-018",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-019",
+      "category": "FR",
+      "basic_ids": [
+        "BD-ARC-05",
+        "BD-MOD-24",
+        "BD-SEC-10"
+      ],
+      "design_ids": [
+        "DD-005",
+        "DD-030",
+        "DD-077"
+      ],
+      "plan_id": "PLAN-FR-019",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-020",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-09"
+      ],
+      "design_ids": [
+        "DD-015"
+      ],
+      "plan_id": "PLAN-FR-020",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-021",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-10"
+      ],
+      "design_ids": [
+        "DD-016"
+      ],
+      "plan_id": "PLAN-FR-021",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-022",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-11"
+      ],
+      "design_ids": [
+        "DD-017"
+      ],
+      "plan_id": "PLAN-FR-022",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-023",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-11",
+        "BD-MOD-26"
+      ],
+      "design_ids": [
+        "DD-017",
+        "DD-067"
+      ],
+      "plan_id": "PLAN-FR-023",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-024",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-15"
+      ],
+      "design_ids": [
+        "DD-021"
+      ],
+      "plan_id": "PLAN-FR-024",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-025",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-09",
+        "BD-IF-11"
+      ],
+      "design_ids": [
+        "DD-015",
+        "DD-075"
+      ],
+      "plan_id": "PLAN-FR-025",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-026",
+      "category": "FR",
+      "basic_ids": [
+        "BD-ARC-03",
+        "BD-MOD-12"
+      ],
+      "design_ids": [
+        "DD-003",
+        "DD-018"
+      ],
+      "plan_id": "PLAN-FR-026",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-027",
+      "category": "FR",
+      "basic_ids": [
+        "BD-ARC-03",
+        "BD-MOD-13"
+      ],
+      "design_ids": [
+        "DD-003",
+        "DD-019"
+      ],
+      "plan_id": "PLAN-FR-027",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-028",
+      "category": "FR",
+      "basic_ids": [
+        "BD-ARC-03",
+        "BD-MOD-13"
+      ],
+      "design_ids": [
+        "DD-003",
+        "DD-019"
+      ],
+      "plan_id": "PLAN-FR-028",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-029",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-09"
+      ],
+      "design_ids": [
+        "DD-015"
+      ],
+      "plan_id": "PLAN-FR-029",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-030",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-15"
+      ],
+      "design_ids": [
+        "DD-021"
+      ],
+      "plan_id": "PLAN-FR-030",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-031",
+      "category": "FR",
+      "basic_ids": [
+        "BD-ARC-04",
+        "BD-SEC-02"
+      ],
+      "design_ids": [
+        "DD-004",
+        "DD-046"
+      ],
+      "plan_id": "PLAN-FR-031",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-032",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-14"
+      ],
+      "design_ids": [
+        "DD-020"
+      ],
+      "plan_id": "PLAN-FR-032",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-033",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-08",
+        "BD-MOD-14",
+        "BD-MOD-28"
+      ],
+      "design_ids": [
+        "DD-014",
+        "DD-020",
+        "DD-069"
+      ],
+      "plan_id": "PLAN-FR-033",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-034",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-14",
+        "BD-IF-01",
+        "BD-MOD-28"
+      ],
+      "design_ids": [
+        "DD-020",
+        "DD-036",
+        "DD-069"
+      ],
+      "plan_id": "PLAN-FR-034",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-035",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-19",
+        "BD-IF-01",
+        "BD-IF-10"
+      ],
+      "design_ids": [
+        "DD-025",
+        "DD-036",
+        "DD-074"
+      ],
+      "plan_id": "PLAN-FR-035",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-036",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-22",
+        "BD-SEC-01",
+        "BD-SEC-09"
+      ],
+      "design_ids": [
+        "DD-028",
+        "DD-045",
+        "DD-076"
+      ],
+      "plan_id": "PLAN-FR-036",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-037",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-18",
+        "BD-IF-02",
+        "BD-IF-11"
+      ],
+      "design_ids": [
+        "DD-024",
+        "DD-037",
+        "DD-075"
+      ],
+      "plan_id": "PLAN-FR-037",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-038",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-14"
+      ],
+      "design_ids": [
+        "DD-020"
+      ],
+      "plan_id": "PLAN-FR-038",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-039",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-07",
+        "BD-DAT-03",
+        "BD-MOD-27"
+      ],
+      "design_ids": [
+        "DD-013",
+        "DD-034",
+        "DD-068"
+      ],
+      "plan_id": "PLAN-FR-039",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-040",
+      "category": "FR",
+      "basic_ids": [
+        "BD-ARC-02",
+        "BD-TST-02"
+      ],
+      "design_ids": [
+        "DD-002",
+        "DD-060"
+      ],
+      "plan_id": "PLAN-FR-040",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-041",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-20",
+        "BD-IF-04",
+        "BD-MOD-28"
+      ],
+      "design_ids": [
+        "DD-026",
+        "DD-039",
+        "DD-069"
+      ],
+      "plan_id": "PLAN-FR-041",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-042",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-15",
+        "BD-MOD-20"
+      ],
+      "design_ids": [
+        "DD-021",
+        "DD-026"
+      ],
+      "plan_id": "PLAN-FR-042",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-043",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-20",
+        "BD-IF-04",
+        "BD-MOD-28"
+      ],
+      "design_ids": [
+        "DD-026",
+        "DD-039",
+        "DD-069"
+      ],
+      "plan_id": "PLAN-FR-043",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-044",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-20",
+        "BD-IF-06"
+      ],
+      "design_ids": [
+        "DD-026",
+        "DD-041"
+      ],
+      "plan_id": "PLAN-FR-044",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-045",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-20",
+        "BD-IF-05"
+      ],
+      "design_ids": [
+        "DD-026",
+        "DD-040"
+      ],
+      "plan_id": "PLAN-FR-045",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-046",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-20",
+        "BD-IF-04"
+      ],
+      "design_ids": [
+        "DD-026",
+        "DD-039"
+      ],
+      "plan_id": "PLAN-FR-046",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-047",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-18"
+      ],
+      "design_ids": [
+        "DD-024"
+      ],
+      "plan_id": "PLAN-FR-047",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-048",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-17",
+        "BD-IF-08",
+        "BD-OPS-03",
+        "BD-MOD-29"
+      ],
+      "design_ids": [
+        "DD-023",
+        "DD-043",
+        "DD-066",
+        "DD-070"
+      ],
+      "plan_id": "PLAN-FR-048",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-049",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-18",
+        "BD-OPS-03"
+      ],
+      "design_ids": [
+        "DD-024",
+        "DD-066"
+      ],
+      "plan_id": "PLAN-FR-049",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-050",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-17",
+        "BD-MOD-30"
+      ],
+      "design_ids": [
+        "DD-023",
+        "DD-071"
+      ],
+      "plan_id": "PLAN-FR-050",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-051",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-19",
+        "BD-DAT-04"
+      ],
+      "design_ids": [
+        "DD-025",
+        "DD-035"
+      ],
+      "plan_id": "PLAN-FR-051",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-052",
+      "category": "FR",
+      "basic_ids": [
+        "BD-ARC-06",
+        "BD-OPS-01"
+      ],
+      "design_ids": [
+        "DD-006",
+        "DD-064"
+      ],
+      "plan_id": "PLAN-FR-052",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-053",
+      "category": "FR",
+      "basic_ids": [
+        "BD-ARC-06",
+        "BD-MOD-21",
+        "BD-IF-06"
+      ],
+      "design_ids": [
+        "DD-006",
+        "DD-027",
+        "DD-041"
+      ],
+      "plan_id": "PLAN-FR-053",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-054",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-16",
+        "BD-DAT-02",
+        "BD-DAT-05",
+        "BD-IF-10"
+      ],
+      "design_ids": [
+        "DD-022",
+        "DD-033",
+        "DD-073",
+        "DD-074"
+      ],
+      "plan_id": "PLAN-FR-054",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-055",
+      "category": "FR",
+      "basic_ids": [
+        "BD-ARC-04",
+        "BD-SEC-02",
+        "BD-SEC-11"
+      ],
+      "design_ids": [
+        "DD-004",
+        "DD-046",
+        "DD-078"
+      ],
+      "plan_id": "PLAN-FR-055",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-056",
+      "category": "FR",
+      "basic_ids": [
+        "BD-SEC-03",
+        "BD-SEC-11"
+      ],
+      "design_ids": [
+        "DD-047",
+        "DD-078"
+      ],
+      "plan_id": "PLAN-FR-056",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-057",
+      "category": "FR",
+      "basic_ids": [
+        "BD-IF-07",
+        "BD-SEC-04",
+        "BD-SEC-11"
+      ],
+      "design_ids": [
+        "DD-042",
+        "DD-048",
+        "DD-078"
+      ],
+      "plan_id": "PLAN-FR-057",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-058",
+      "category": "FR",
+      "basic_ids": [
+        "BD-SEC-01",
+        "BD-MOD-29",
+        "BD-SEC-09"
+      ],
+      "design_ids": [
+        "DD-045",
+        "DD-070",
+        "DD-076"
+      ],
+      "plan_id": "PLAN-FR-058",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-059",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-19",
+        "BD-DAT-04",
+        "BD-SEC-07"
+      ],
+      "design_ids": [
+        "DD-025",
+        "DD-035",
+        "DD-051"
+      ],
+      "plan_id": "PLAN-FR-059",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-060",
+      "category": "FR",
+      "basic_ids": [
+        "BD-IF-07",
+        "BD-SEC-04",
+        "BD-MOD-31",
+        "BD-SEC-11"
+      ],
+      "design_ids": [
+        "DD-042",
+        "DD-048",
+        "DD-072",
+        "DD-078"
+      ],
+      "plan_id": "PLAN-FR-060",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-061",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-25",
+        "BD-SEC-02",
+        "BD-OPS-03"
+      ],
+      "design_ids": [
+        "DD-031",
+        "DD-046",
+        "DD-066"
+      ],
+      "plan_id": "PLAN-FR-061",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-062",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-18",
+        "BD-SEC-07",
+        "BD-OPS-03"
+      ],
+      "design_ids": [
+        "DD-024",
+        "DD-051",
+        "DD-066"
+      ],
+      "plan_id": "PLAN-FR-062",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-063",
+      "category": "FR",
+      "basic_ids": [
+        "BD-SEC-08"
+      ],
+      "design_ids": [
+        "DD-052"
+      ],
+      "plan_id": "PLAN-FR-063",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-064",
+      "category": "FR",
+      "basic_ids": [
+        "BD-SEC-01"
+      ],
+      "design_ids": [
+        "DD-045"
+      ],
+      "plan_id": "PLAN-FR-064",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-065",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-02",
+        "BD-MOD-04",
+        "BD-MOD-25",
+        "BD-DAT-01"
+      ],
+      "design_ids": [
+        "DD-008",
+        "DD-010",
+        "DD-031",
+        "DD-032"
+      ],
+      "plan_id": "PLAN-FR-065",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-066",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-06",
+        "BD-MOD-08"
+      ],
+      "design_ids": [
+        "DD-012",
+        "DD-014"
+      ],
+      "plan_id": "PLAN-FR-066",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-067",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-08",
+        "BD-DAT-03",
+        "BD-MOD-27"
+      ],
+      "design_ids": [
+        "DD-014",
+        "DD-034",
+        "DD-068"
+      ],
+      "plan_id": "PLAN-FR-067",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-068",
+      "category": "FR",
+      "basic_ids": [
+        "BD-SEC-05"
+      ],
+      "design_ids": [
+        "DD-049"
+      ],
+      "plan_id": "PLAN-FR-068",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-069",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-17",
+        "BD-MOD-30"
+      ],
+      "design_ids": [
+        "DD-023",
+        "DD-071"
+      ],
+      "plan_id": "PLAN-FR-069",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-070",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-23"
+      ],
+      "design_ids": [
+        "DD-029"
+      ],
+      "plan_id": "PLAN-FR-070",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-071",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-16",
+        "BD-SEC-05",
+        "BD-SEC-06",
+        "BD-MOD-31"
+      ],
+      "design_ids": [
+        "DD-022",
+        "DD-049",
+        "DD-050",
+        "DD-072"
+      ],
+      "plan_id": "PLAN-FR-071",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-072",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-16",
+        "BD-MOD-25",
+        "BD-SEC-06",
+        "BD-MOD-31",
+        "BD-DAT-05"
+      ],
+      "design_ids": [
+        "DD-022",
+        "DD-031",
+        "DD-050",
+        "DD-072",
+        "DD-073"
+      ],
+      "plan_id": "PLAN-FR-072",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-073",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-15",
+        "BD-IF-09"
+      ],
+      "design_ids": [
+        "DD-021",
+        "DD-044"
+      ],
+      "plan_id": "PLAN-FR-073",
+      "state": "未执行"
+    },
+    {
+      "id": "FR-074",
+      "category": "FR",
+      "basic_ids": [
+        "BD-MOD-03"
+      ],
+      "design_ids": [
+        "DD-009"
+      ],
+      "plan_id": "PLAN-FR-074",
+      "state": "未执行"
+    },
+    {
+      "id": "NFR-001",
+      "category": "NFR",
+      "basic_ids": [
+        "BD-NFR-01",
+        "BD-TST-01"
+      ],
+      "design_ids": [
+        "DD-053",
+        "DD-059"
+      ],
+      "plan_id": "PLAN-NFR-001",
+      "state": "未执行"
+    },
+    {
+      "id": "NFR-002",
+      "category": "NFR",
+      "basic_ids": [
+        "BD-NFR-01",
+        "BD-NFR-07"
+      ],
+      "design_ids": [
+        "DD-053",
+        "DD-079"
+      ],
+      "plan_id": "PLAN-NFR-002",
+      "state": "未执行"
+    },
+    {
+      "id": "NFR-003",
+      "category": "NFR",
+      "basic_ids": [
+        "BD-NFR-02",
+        "BD-TST-02",
+        "BD-NFR-07"
+      ],
+      "design_ids": [
+        "DD-054",
+        "DD-060",
+        "DD-079"
+      ],
+      "plan_id": "PLAN-NFR-003",
+      "state": "未执行"
+    },
+    {
+      "id": "NFR-004",
+      "category": "NFR",
+      "basic_ids": [
+        "BD-NFR-02",
+        "BD-TST-02",
+        "BD-NFR-07"
+      ],
+      "design_ids": [
+        "DD-054",
+        "DD-060",
+        "DD-079"
+      ],
+      "plan_id": "PLAN-NFR-004",
+      "state": "未执行"
+    },
+    {
+      "id": "NFR-005",
+      "category": "NFR",
+      "basic_ids": [
+        "BD-NFR-02"
+      ],
+      "design_ids": [
+        "DD-054"
+      ],
+      "plan_id": "PLAN-NFR-005",
+      "state": "未执行"
+    },
+    {
+      "id": "NFR-006",
+      "category": "NFR",
+      "basic_ids": [
+        "BD-SEC-02",
+        "BD-NFR-04",
+        "BD-TST-04"
+      ],
+      "design_ids": [
+        "DD-046",
+        "DD-056",
+        "DD-062"
+      ],
+      "plan_id": "PLAN-NFR-006",
+      "state": "未执行"
+    },
+    {
+      "id": "NFR-007",
+      "category": "NFR",
+      "basic_ids": [
+        "BD-NFR-03",
+        "BD-TST-03",
+        "BD-MOD-30"
+      ],
+      "design_ids": [
+        "DD-055",
+        "DD-061",
+        "DD-071"
+      ],
+      "plan_id": "PLAN-NFR-007",
+      "state": "未执行"
+    },
+    {
+      "id": "NFR-008",
+      "category": "NFR",
+      "basic_ids": [
+        "BD-MOD-25",
+        "BD-NFR-03",
+        "BD-TST-03"
+      ],
+      "design_ids": [
+        "DD-031",
+        "DD-055",
+        "DD-061"
+      ],
+      "plan_id": "PLAN-NFR-008",
+      "state": "未执行"
+    },
+    {
+      "id": "NFR-009",
+      "category": "NFR",
+      "basic_ids": [
+        "BD-MOD-05",
+        "BD-NFR-03"
+      ],
+      "design_ids": [
+        "DD-011",
+        "DD-055"
+      ],
+      "plan_id": "PLAN-NFR-009",
+      "state": "未执行"
+    },
+    {
+      "id": "NFR-010",
+      "category": "NFR",
+      "basic_ids": [
+        "BD-MOD-18",
+        "BD-NFR-05",
+        "BD-MOD-29"
+      ],
+      "design_ids": [
+        "DD-024",
+        "DD-057",
+        "DD-070"
+      ],
+      "plan_id": "PLAN-NFR-010",
+      "state": "未执行"
+    },
+    {
+      "id": "NFR-011",
+      "category": "NFR",
+      "basic_ids": [
+        "BD-NFR-05"
+      ],
+      "design_ids": [
+        "DD-057"
+      ],
+      "plan_id": "PLAN-NFR-011",
+      "state": "未执行"
+    },
+    {
+      "id": "NFR-012",
+      "category": "NFR",
+      "basic_ids": [
+        "BD-SEC-02",
+        "BD-NFR-04",
+        "BD-TST-04"
+      ],
+      "design_ids": [
+        "DD-046",
+        "DD-056",
+        "DD-062"
+      ],
+      "plan_id": "PLAN-NFR-012",
+      "state": "未执行"
+    },
+    {
+      "id": "NFR-013",
+      "category": "NFR",
+      "basic_ids": [
+        "BD-NFR-01",
+        "BD-TST-05",
+        "BD-MOD-28"
+      ],
+      "design_ids": [
+        "DD-053",
+        "DD-063",
+        "DD-069"
+      ],
+      "plan_id": "PLAN-NFR-013",
+      "state": "未执行"
+    },
+    {
+      "id": "NFR-014",
+      "category": "NFR",
+      "basic_ids": [
+        "BD-NFR-06",
+        "BD-TST-06"
+      ],
+      "design_ids": [
+        "DD-058",
+        "DD-080"
+      ],
+      "plan_id": "PLAN-NFR-014",
+      "state": "未执行"
+    },
+    {
+      "id": "NFR-015",
+      "category": "NFR",
+      "basic_ids": [
+        "BD-ARC-06",
+        "BD-NFR-04",
+        "BD-OPS-01"
+      ],
+      "design_ids": [
+        "DD-006",
+        "DD-056",
+        "DD-064"
+      ],
+      "plan_id": "PLAN-NFR-015",
+      "state": "未执行"
+    },
+    {
+      "id": "NFR-016",
+      "category": "NFR",
+      "basic_ids": [
+        "BD-NFR-05"
+      ],
+      "design_ids": [
+        "DD-057"
+      ],
+      "plan_id": "PLAN-NFR-016",
+      "state": "未执行"
+    },
+    {
+      "id": "NFR-017",
+      "category": "NFR",
+      "basic_ids": [
+        "BD-MOD-03",
+        "BD-NFR-03",
+        "BD-MOD-30"
+      ],
+      "design_ids": [
+        "DD-009",
+        "DD-055",
+        "DD-071"
+      ],
+      "plan_id": "PLAN-NFR-017",
+      "state": "未执行"
+    },
+    {
+      "id": "NFR-018",
+      "category": "NFR",
+      "basic_ids": [
+        "BD-SEC-08"
+      ],
+      "design_ids": [
+        "DD-052"
+      ],
+      "plan_id": "PLAN-NFR-018",
+      "state": "未执行"
+    },
+    {
+      "id": "NFR-019",
+      "category": "NFR",
+      "basic_ids": [
+        "BD-MOD-19",
+        "BD-DAT-04",
+        "BD-SEC-07",
+        "BD-NFR-04"
+      ],
+      "design_ids": [
+        "DD-025",
+        "DD-035",
+        "DD-051",
+        "DD-056"
+      ],
+      "plan_id": "PLAN-NFR-019",
+      "state": "未执行"
+    },
+    {
+      "id": "NFR-020",
+      "category": "NFR",
+      "basic_ids": [
+        "BD-NFR-02",
+        "BD-TST-02",
+        "BD-NFR-07"
+      ],
+      "design_ids": [
+        "DD-054",
+        "DD-060",
+        "DD-079"
+      ],
+      "plan_id": "PLAN-NFR-020",
+      "state": "未执行"
+    },
+    {
+      "id": "NFR-021",
+      "category": "NFR",
+      "basic_ids": [
+        "BD-NFR-01",
+        "BD-TST-01",
+        "BD-TST-06"
+      ],
+      "design_ids": [
+        "DD-053",
+        "DD-059",
+        "DD-080"
+      ],
+      "plan_id": "PLAN-NFR-021",
+      "state": "未执行"
+    },
+    {
+      "id": "NFR-022",
+      "category": "NFR",
+      "basic_ids": [
+        "BD-MOD-03",
+        "BD-NFR-03"
+      ],
+      "design_ids": [
+        "DD-009",
+        "DD-055"
+      ],
+      "plan_id": "PLAN-NFR-022",
+      "state": "未执行"
+    },
+    {
+      "id": "NFR-023",
+      "category": "NFR",
+      "basic_ids": [
+        "BD-NFR-02",
+        "BD-TST-02",
+        "BD-NFR-07"
+      ],
+      "design_ids": [
+        "DD-054",
+        "DD-060",
+        "DD-079"
+      ],
+      "plan_id": "PLAN-NFR-023",
+      "state": "未执行"
+    },
+    {
+      "id": "NFR-024",
+      "category": "NFR",
+      "basic_ids": [
+        "BD-NFR-05"
+      ],
+      "design_ids": [
+        "DD-057"
+      ],
+      "plan_id": "PLAN-NFR-024",
+      "state": "未执行"
+    },
+    {
+      "id": "IF-001",
+      "category": "IF",
+      "basic_ids": [
+        "BD-IF-01",
+        "BD-IF-10",
+        "BD-SEC-09"
+      ],
+      "design_ids": [
+        "DD-036",
+        "DD-074",
+        "DD-076"
+      ],
+      "plan_id": "PLAN-IF-001",
+      "state": "未执行"
+    },
+    {
+      "id": "IF-002",
+      "category": "IF",
+      "basic_ids": [
+        "BD-IF-02",
+        "BD-IF-11"
+      ],
+      "design_ids": [
+        "DD-037",
+        "DD-075"
+      ],
+      "plan_id": "PLAN-IF-002",
+      "state": "未执行"
+    },
+    {
+      "id": "IF-003",
+      "category": "IF",
+      "basic_ids": [
+        "BD-MOD-22",
+        "BD-IF-03"
+      ],
+      "design_ids": [
+        "DD-028",
+        "DD-038"
+      ],
+      "plan_id": "PLAN-IF-003",
+      "state": "未执行"
+    },
+    {
+      "id": "IF-004",
+      "category": "IF",
+      "basic_ids": [
+        "BD-IF-04",
+        "BD-TST-05"
+      ],
+      "design_ids": [
+        "DD-039",
+        "DD-063"
+      ],
+      "plan_id": "PLAN-IF-004",
+      "state": "未执行"
+    },
+    {
+      "id": "IF-005",
+      "category": "IF",
+      "basic_ids": [
+        "BD-IF-05",
+        "BD-TST-05"
+      ],
+      "design_ids": [
+        "DD-040",
+        "DD-063"
+      ],
+      "plan_id": "PLAN-IF-005",
+      "state": "未执行"
+    },
+    {
+      "id": "IF-006",
+      "category": "IF",
+      "basic_ids": [
+        "BD-IF-06"
+      ],
+      "design_ids": [
+        "DD-041"
+      ],
+      "plan_id": "PLAN-IF-006",
+      "state": "未执行"
+    },
+    {
+      "id": "IF-007",
+      "category": "IF",
+      "basic_ids": [
+        "BD-IF-07",
+        "BD-SEC-09"
+      ],
+      "design_ids": [
+        "DD-042",
+        "DD-076"
+      ],
+      "plan_id": "PLAN-IF-007",
+      "state": "未执行"
+    },
+    {
+      "id": "IF-008",
+      "category": "IF",
+      "basic_ids": [
+        "BD-IF-08"
+      ],
+      "design_ids": [
+        "DD-043"
+      ],
+      "plan_id": "PLAN-IF-008",
+      "state": "未执行"
+    },
+    {
+      "id": "IF-009",
+      "category": "IF",
+      "basic_ids": [
+        "BD-MOD-15",
+        "BD-IF-09"
+      ],
+      "design_ids": [
+        "DD-021",
+        "DD-044"
+      ],
+      "plan_id": "PLAN-IF-009",
+      "state": "未执行"
+    },
+    {
+      "id": "UC-01",
+      "category": "UC",
+      "basic_ids": [
+        "BD-MOD-07",
+        "BD-TST-03"
+      ],
+      "design_ids": [
+        "DD-013",
+        "DD-061"
+      ],
+      "plan_id": "PLAN-UC-01",
+      "state": "未执行"
+    },
+    {
+      "id": "UC-02",
+      "category": "UC",
+      "basic_ids": [
+        "BD-MOD-08",
+        "BD-TST-03"
+      ],
+      "design_ids": [
+        "DD-014",
+        "DD-061"
+      ],
+      "plan_id": "PLAN-UC-02",
+      "state": "未执行"
+    },
+    {
+      "id": "UC-03",
+      "category": "UC",
+      "basic_ids": [
+        "BD-TST-03",
+        "BD-MOD-03",
+        "BD-MOD-05"
+      ],
+      "design_ids": [
+        "DD-061",
+        "DD-009",
+        "DD-011"
+      ],
+      "plan_id": "PLAN-UC-03",
+      "state": "未执行"
+    },
+    {
+      "id": "UC-04",
+      "category": "UC",
+      "basic_ids": [
+        "BD-ARC-01",
+        "BD-ARC-03",
+        "BD-MOD-14"
+      ],
+      "design_ids": [
+        "DD-001",
+        "DD-003",
+        "DD-020"
+      ],
+      "plan_id": "PLAN-UC-04",
+      "state": "未执行"
+    },
+    {
+      "id": "UC-05",
+      "category": "UC",
+      "basic_ids": [
+        "BD-ARC-03",
+        "BD-MOD-13"
+      ],
+      "design_ids": [
+        "DD-003",
+        "DD-019"
+      ],
+      "plan_id": "PLAN-UC-05",
+      "state": "未执行"
+    },
+    {
+      "id": "UC-06",
+      "category": "UC",
+      "basic_ids": [
+        "BD-MOD-16",
+        "BD-MOD-25",
+        "BD-TST-03"
+      ],
+      "design_ids": [
+        "DD-022",
+        "DD-031",
+        "DD-061"
+      ],
+      "plan_id": "PLAN-UC-06",
+      "state": "未执行"
+    },
+    {
+      "id": "UC-07",
+      "category": "UC",
+      "basic_ids": [
+        "BD-MOD-20",
+        "BD-TST-05"
+      ],
+      "design_ids": [
+        "DD-026",
+        "DD-063"
+      ],
+      "plan_id": "PLAN-UC-07",
+      "state": "未执行"
+    },
+    {
+      "id": "UC-08",
+      "category": "UC",
+      "basic_ids": [
+        "BD-SEC-07",
+        "BD-TST-04"
+      ],
+      "design_ids": [
+        "DD-051",
+        "DD-062"
+      ],
+      "plan_id": "PLAN-UC-08",
+      "state": "未执行"
+    },
+    {
+      "id": "UC-09",
+      "category": "UC",
+      "basic_ids": [
+        "BD-SEC-05",
+        "BD-TST-04"
+      ],
+      "design_ids": [
+        "DD-049",
+        "DD-062"
+      ],
+      "plan_id": "PLAN-UC-09",
+      "state": "未执行"
+    },
+    {
+      "id": "UC-10",
+      "category": "UC",
+      "basic_ids": [
+        "BD-MOD-23",
+        "BD-TST-03"
+      ],
+      "design_ids": [
+        "DD-029",
+        "DD-061"
+      ],
+      "plan_id": "PLAN-UC-10",
+      "state": "未执行"
+    },
+    {
+      "id": "AC-00",
+      "category": "AC",
+      "basic_ids": [
+        "BD-OPS-02",
+        "BD-TST-02",
+        "BD-MOD-02",
+        "BD-OPS-04"
+      ],
+      "design_ids": [
+        "DD-065",
+        "DD-060",
+        "DD-008",
+        "DD-081"
+      ],
+      "plan_id": "PLAN-AC-00",
+      "state": "未执行"
+    },
+    {
+      "id": "AC-01",
+      "category": "AC",
+      "basic_ids": [
+        "BD-OPS-02",
+        "BD-MOD-09",
+        "BD-MOD-10",
+        "BD-MOD-11",
+        "BD-SEC-02",
+        "BD-TST-06",
+        "BD-OPS-04"
+      ],
+      "design_ids": [
+        "DD-065",
+        "DD-015",
+        "DD-016",
+        "DD-017",
+        "DD-046",
+        "DD-080",
+        "DD-081"
+      ],
+      "plan_id": "PLAN-AC-01",
+      "state": "未执行"
+    },
+    {
+      "id": "AC-02",
+      "category": "AC",
+      "basic_ids": [
+        "BD-OPS-02",
+        "BD-MOD-14",
+        "BD-MOD-20",
+        "BD-TST-03",
+        "BD-TST-06",
+        "BD-OPS-04"
+      ],
+      "design_ids": [
+        "DD-065",
+        "DD-020",
+        "DD-026",
+        "DD-061",
+        "DD-080",
+        "DD-081"
+      ],
+      "plan_id": "PLAN-AC-02",
+      "state": "未执行"
+    },
+    {
+      "id": "AC-03",
+      "category": "AC",
+      "basic_ids": [
+        "BD-OPS-02",
+        "BD-NFR-02",
+        "BD-TST-02",
+        "BD-TST-06",
+        "BD-OPS-04"
+      ],
+      "design_ids": [
+        "DD-065",
+        "DD-054",
+        "DD-060",
+        "DD-080",
+        "DD-081"
+      ],
+      "plan_id": "PLAN-AC-03",
+      "state": "未执行"
+    },
+    {
+      "id": "AC-04",
+      "category": "AC",
+      "basic_ids": [
+        "BD-OPS-02",
+        "BD-NFR-01",
+        "BD-TST-01"
+      ],
+      "design_ids": [
+        "DD-065",
+        "DD-053",
+        "DD-059"
+      ],
+      "plan_id": "PLAN-AC-04",
+      "state": "未执行"
+    },
+    {
+      "id": "RISK-01",
+      "category": "RISK",
+      "basic_ids": [
+        "BD-ARC-02"
+      ],
+      "design_ids": [
+        "DD-002"
+      ],
+      "plan_id": "PLAN-RISK-01",
+      "state": "未执行"
+    },
+    {
+      "id": "RISK-02",
+      "category": "RISK",
+      "basic_ids": [
+        "BD-MOD-20"
+      ],
+      "design_ids": [
+        "DD-026"
+      ],
+      "plan_id": "PLAN-RISK-02",
+      "state": "未执行"
+    },
+    {
+      "id": "RISK-03",
+      "category": "RISK",
+      "basic_ids": [
+        "BD-ARC-04",
+        "BD-MOD-24",
+        "BD-SEC-10"
+      ],
+      "design_ids": [
+        "DD-004",
+        "DD-030",
+        "DD-077"
+      ],
+      "plan_id": "PLAN-RISK-03",
+      "state": "未执行"
+    },
+    {
+      "id": "RISK-04",
+      "category": "RISK",
+      "basic_ids": [
+        "BD-MOD-06",
+        "BD-MOD-26"
+      ],
+      "design_ids": [
+        "DD-012",
+        "DD-067"
+      ],
+      "plan_id": "PLAN-RISK-04",
+      "state": "未执行"
+    },
+    {
+      "id": "RISK-05",
+      "category": "RISK",
+      "basic_ids": [
+        "BD-ARC-03"
+      ],
+      "design_ids": [
+        "DD-003"
+      ],
+      "plan_id": "PLAN-RISK-05",
+      "state": "未执行"
+    },
+    {
+      "id": "RISK-06",
+      "category": "RISK",
+      "basic_ids": [
+        "BD-ARC-05",
+        "BD-OPS-04"
+      ],
+      "design_ids": [
+        "DD-005",
+        "DD-081"
+      ],
+      "plan_id": "PLAN-RISK-06",
+      "state": "未执行"
+    },
+    {
+      "id": "RISK-07",
+      "category": "RISK",
+      "basic_ids": [
+        "BD-ARC-02"
+      ],
+      "design_ids": [
+        "DD-002"
+      ],
+      "plan_id": "PLAN-RISK-07",
+      "state": "未执行"
+    },
+    {
+      "id": "RISK-08",
+      "category": "RISK",
+      "basic_ids": [
+        "BD-MOD-16",
+        "BD-MOD-31"
+      ],
+      "design_ids": [
+        "DD-022",
+        "DD-072"
+      ],
+      "plan_id": "PLAN-RISK-08",
+      "state": "未执行"
+    },
+    {
+      "id": "RISK-09",
+      "category": "RISK",
+      "basic_ids": [
+        "BD-ARC-04"
+      ],
+      "design_ids": [
+        "DD-004"
+      ],
+      "plan_id": "PLAN-RISK-09",
+      "state": "未执行"
+    },
+    {
+      "id": "RISK-10",
+      "category": "RISK",
+      "basic_ids": [
+        "BD-ARC-05",
+        "BD-SEC-08"
+      ],
+      "design_ids": [
+        "DD-005",
+        "DD-052"
+      ],
+      "plan_id": "PLAN-RISK-10",
+      "state": "未执行"
+    },
+    {
+      "id": "RISK-11",
+      "category": "RISK",
+      "basic_ids": [
+        "BD-IF-05"
+      ],
+      "design_ids": [
+        "DD-040"
+      ],
+      "plan_id": "PLAN-RISK-11",
+      "state": "未执行"
+    },
+    {
+      "id": "RISK-12",
+      "category": "RISK",
+      "basic_ids": [
+        "BD-NFR-01"
+      ],
+      "design_ids": [
+        "DD-053"
+      ],
+      "plan_id": "PLAN-RISK-12",
+      "state": "未执行"
+    },
+    {
+      "id": "RISK-13",
+      "category": "RISK",
+      "basic_ids": [
+        "BD-MOD-20"
+      ],
+      "design_ids": [
+        "DD-026"
+      ],
+      "plan_id": "PLAN-RISK-13",
+      "state": "未执行"
+    },
+    {
+      "id": "RISK-14",
+      "category": "RISK",
+      "basic_ids": [
+        "BD-MOD-08",
+        "BD-DAT-03",
+        "BD-MOD-27"
+      ],
+      "design_ids": [
+        "DD-014",
+        "DD-034",
+        "DD-068"
+      ],
+      "plan_id": "PLAN-RISK-14",
+      "state": "未执行"
+    },
+    {
+      "id": "RISK-15",
+      "category": "RISK",
+      "basic_ids": [
+        "BD-SEC-05",
+        "BD-TST-04"
+      ],
+      "design_ids": [
+        "DD-049",
+        "DD-062"
+      ],
+      "plan_id": "PLAN-RISK-15",
+      "state": "未执行"
+    },
+    {
+      "id": "DEC-01",
+      "category": "DEC",
+      "basic_ids": [
+        "BD-TST-01"
+      ],
+      "design_ids": [
+        "DD-059"
+      ],
+      "plan_id": "PLAN-DEC-01",
+      "state": "未执行"
+    },
+    {
+      "id": "DEC-02",
+      "category": "DEC",
+      "basic_ids": [
+        "BD-MOD-11"
+      ],
+      "design_ids": [
+        "DD-017"
+      ],
+      "plan_id": "PLAN-DEC-02",
+      "state": "未执行"
+    },
+    {
+      "id": "DEC-03",
+      "category": "DEC",
+      "basic_ids": [
+        "BD-ARC-05",
+        "BD-MOD-12"
+      ],
+      "design_ids": [
+        "DD-005",
+        "DD-018"
+      ],
+      "plan_id": "PLAN-DEC-03",
+      "state": "未执行"
+    },
+    {
+      "id": "DEC-04",
+      "category": "DEC",
+      "basic_ids": [
+        "BD-ARC-06",
+        "BD-OPS-01"
+      ],
+      "design_ids": [
+        "DD-006",
+        "DD-064"
+      ],
+      "plan_id": "PLAN-DEC-04",
+      "state": "未执行"
+    },
+    {
+      "id": "DEC-05",
+      "category": "DEC",
+      "basic_ids": [
+        "BD-IF-01"
+      ],
+      "design_ids": [
+        "DD-036"
+      ],
+      "plan_id": "PLAN-DEC-05",
+      "state": "未执行"
+    },
+    {
+      "id": "DEC-06",
+      "category": "DEC",
+      "basic_ids": [
+        "BD-MOD-20"
+      ],
+      "design_ids": [
+        "DD-026"
+      ],
+      "plan_id": "PLAN-DEC-06",
+      "state": "未执行"
+    },
+    {
+      "id": "DEC-07",
+      "category": "DEC",
+      "basic_ids": [
+        "BD-TST-02"
+      ],
+      "design_ids": [
+        "DD-060"
+      ],
+      "plan_id": "PLAN-DEC-07",
+      "state": "未执行"
+    },
+    {
+      "id": "DEC-08",
+      "category": "DEC",
+      "basic_ids": [
+        "BD-MOD-07",
+        "BD-MOD-08"
+      ],
+      "design_ids": [
+        "DD-013",
+        "DD-014"
+      ],
+      "plan_id": "PLAN-DEC-08",
+      "state": "未执行"
+    },
+    {
+      "id": "DEC-09",
+      "category": "DEC",
+      "basic_ids": [
+        "BD-SEC-04"
+      ],
+      "design_ids": [
+        "DD-048"
+      ],
+      "plan_id": "PLAN-DEC-09",
+      "state": "未执行"
+    },
+    {
+      "id": "DEC-10",
+      "category": "DEC",
+      "basic_ids": [
+        "BD-OPS-01"
+      ],
+      "design_ids": [
+        "DD-064"
+      ],
+      "plan_id": "PLAN-DEC-10",
+      "state": "未执行"
+    },
+    {
+      "id": "DEC-11",
+      "category": "DEC",
+      "basic_ids": [
+        "BD-IF-04"
+      ],
+      "design_ids": [
+        "DD-039"
+      ],
+      "plan_id": "PLAN-DEC-11",
+      "state": "未执行"
+    },
+    {
+      "id": "DEC-12",
+      "category": "DEC",
+      "basic_ids": [
+        "BD-TST-01"
+      ],
+      "design_ids": [
+        "DD-059"
+      ],
+      "plan_id": "PLAN-DEC-12",
+      "state": "未执行"
+    },
+    {
+      "id": "DEC-13",
+      "category": "DEC",
+      "basic_ids": [
+        "BD-MOD-16",
+        "BD-SEC-06",
+        "BD-DAT-05"
+      ],
+      "design_ids": [
+        "DD-022",
+        "DD-050",
+        "DD-073"
+      ],
+      "plan_id": "PLAN-DEC-13",
+      "state": "未执行"
+    }
+  ],
+  "design_controls": [
+    {
+      "id": "DD-001",
+      "basic_id": "BD-ARC-01",
+      "title": "机器客户端与职责边界",
+      "phase": "R0",
+      "assertion": "Agent/CI/CLI 为客户端；不交付面向人类浏览器界面；采用统一租户身份。"
+    },
+    {
+      "id": "DD-002",
+      "basic_id": "BD-ARC-02",
+      "title": "Native Engine 与 Chromium Oracle 分离",
+      "phase": "R0",
+      "assertion": "Native 必须是真实 Rust Web 闭环；Chromium 只用于基准和隔离适配，输出明确标记 backend。"
+    },
+    {
+      "id": "DD-003",
+      "basic_id": "BD-ARC-03",
+      "title": "执行路径分层（语义/布局/绘制）",
+      "phase": "R1-R2",
+      "assertion": "语义路径可跳过 paint；脚本需要几何/可见性时强制样式与布局；视觉证据需完整绘制。"
+    },
+    {
+      "id": "DD-004",
+      "basic_id": "BD-ARC-04",
+      "title": "信任域、进程和运行时隔离",
+      "phase": "R1",
+      "assertion": "API 控制面、网络代理与不可信 JS/DOM 在不同信任域；OS 进程沙箱不可用时 fail-closed。"
+    },
+    {
+      "id": "DD-005",
+      "basic_id": "BD-ARC-05",
+      "title": "职责划分与接口可替换",
+      "phase": "R0",
+      "assertion": "基于稳定 crate 接口替换 parser/JS/layout/renderer，依赖版本及许可证可追踪。"
+    },
+    {
+      "id": "DD-006",
+      "basic_id": "BD-ARC-06",
+      "title": "部署与规模化边界",
+      "phase": "R1-R3",
+      "assertion": "Linux x86_64 主验收，Windows x86_64 开发验证；跨主机为 R3 可选适配。"
+    },
+    {
+      "id": "DD-007",
+      "basic_id": "BD-MOD-01",
+      "title": "Task API 与校验",
+      "phase": "R0",
+      "assertion": "请求校验、任务生命周期与外部效果状态正交建模；非法预算/权限拒绝。"
+    },
+    {
+      "id": "DD-008",
+      "basic_id": "BD-MOD-02",
+      "title": "执行图与依赖解析",
+      "phase": "R0",
+      "assertion": "DAG topo、依赖完成判定、父子所有权、失败/取消传播。"
+    },
+    {
+      "id": "DD-009",
+      "basic_id": "BD-MOD-03",
+      "title": "Admission/Backpressure 与公平队列",
+      "phase": "R0-R3",
+      "assertion": "带上界的队列、资源令牌、按租户加权公平与饥饿诊断；拒绝原因机器可读。"
+    },
+    {
+      "id": "DD-010",
+      "basic_id": "BD-MOD-04",
+      "title": "租约、截止期与资源回收",
+      "phase": "R0-R1",
+      "assertion": "单调时钟截止期、租约续期、父子取消、超时 kill 后资源归零。"
+    },
+    {
+      "id": "DD-011",
+      "basic_id": "BD-MOD-05",
+      "title": "Context 生命周期与私有存储",
+      "phase": "R1",
+      "assertion": "Context 不等于进程；租户/密钥/Cache partition 隔离；禁止脏 Context 跨租户复用。"
+    },
+    {
+      "id": "DD-012",
+      "basic_id": "BD-MOD-06",
+      "title": "Page/Realm 单写者 Actor",
+      "phase": "R1-R2",
+      "assertion": "每 Realm 内脚本和变更在有序事件循环中执行；Agent 写操作是受控命令，不是线程直写 DOM。"
+    },
+    {
+      "id": "DD-013",
+      "basic_id": "BD-MOD-07",
+      "title": "安全点快照与增量 Diff",
+      "phase": "R2",
+      "assertion": "在 Realm 安全点采集不可变只读投影、版本和覆盖范围，支持 TTL 与可选 diff。"
+    },
+    {
+      "id": "DD-014",
+      "basic_id": "BD-MOD-08",
+      "title": "动作仲裁、代际检查与公平排队",
+      "phase": "R2",
+      "assertion": "上下文/页面/文档代际、树版本和 element fingerprint 校验；冲突显式返回，不覆盖。"
+    },
+    {
+      "id": "DD-015",
+      "basic_id": "BD-MOD-09",
+      "title": "网络导航与资源管线",
+      "phase": "R1-R2",
+      "assertion": "HTTP(S)/TLS/重定向/Fetch/Cookie/Storage 有明确支持清单；SSRF 检查随每次解析与跳转执行。"
+    },
+    {
+      "id": "DD-016",
+      "basic_id": "BD-MOD-10",
+      "title": "HTML Parser 与 DOM",
+      "phase": "R1",
+      "assertion": "HTML 解析/节点树/查询/修改由 Rust 核心持有，序列化接口使用稳定节点 ID。"
+    },
+    {
+      "id": "DD-017",
+      "basic_id": "BD-MOD-11",
+      "title": "JS Realm、Host Binding 与微任务",
+      "phase": "R1",
+      "assertion": "JavaScript 引擎经 trait 适配；Promise/微任务/事件顺序遵循已支持 Web 规范子集。"
+    },
+    {
+      "id": "DD-018",
+      "basic_id": "BD-MOD-12",
+      "title": "CSS、Layout、Geometry",
+      "phase": "R2",
+      "assertion": "style→layout→geometry 按依赖计算；不伪造可见性或几何位置。"
+    },
+    {
+      "id": "DD-019",
+      "basic_id": "BD-MOD-13",
+      "title": "按需绘制与截图",
+      "phase": "R2",
+      "assertion": "绘制资源按需分配；视觉任务用真实布局/绘制，截图带 viewport/device scale/epoch。"
+    },
+    {
+      "id": "DD-020",
+      "basic_id": "BD-MOD-14",
+      "title": "Agent Semantic Projection",
+      "phase": "R2",
+      "assertion": "DOM/ARIA/可见信息组合为语义树；读取结果带不可信内容标签、查询预算和分页。"
+    },
+    {
+      "id": "DD-021",
+      "basic_id": "BD-MOD-15",
+      "title": "Capability Registry 与 Fail-Explicit",
+      "phase": "R1-R2",
+      "assertion": "能力按 backend/version/API/浏览器功能精确登记；不支持时返回 UNSUPPORTED_FEATURE。"
+    },
+    {
+      "id": "DD-022",
+      "basic_id": "BD-MOD-16",
+      "title": "副作用分类、审批与未知结果账本",
+      "phase": "R2",
+      "assertion": "read_only/idempotent/non_idempotent 分类；effects_state 独立；uncertain 禁止自动重放。"
+    },
+    {
+      "id": "DD-023",
+      "basic_id": "BD-MOD-17",
+      "title": "资源计量与限额执行",
+      "phase": "R1",
+      "assertion": "按 tenant/agent/task/context 分摊 CPU、RSS、网络、paint、artifact；按进程树计量。"
+    },
+    {
+      "id": "DD-024",
+      "basic_id": "BD-MOD-18",
+      "title": "Event Stream、Trace 与日志",
+      "phase": "R2",
+      "assertion": "每 Page 有序事件 seq，跨页仅按因果关系排序；trace/correlation IDs 可跨层关联。"
+    },
+    {
+      "id": "DD-025",
+      "basic_id": "BD-MOD-19",
+      "title": "证据、脱敏及保留",
+      "phase": "R2",
+      "assertion": "metadata 默认保留；截图和网页正文默认不持久化；敏感信息按策略脱敏、加密和 TTL。"
+    },
+    {
+      "id": "DD-026",
+      "basic_id": "BD-MOD-20",
+      "title": "Playwright Fixture / TS API Adapter",
+      "phase": "R2-R3",
+      "assertion": "R2 仅 fixture + TS 子集；R3 BiDi 研究；原生 Playwright driver/drop-in 单列长期议题。"
+    },
+    {
+      "id": "DD-027",
+      "basic_id": "BD-MOD-21",
+      "title": "跨主机 Worker 协议",
+      "phase": "R3",
+      "assertion": "注册/心跳/租约/容量公告与恢复；未确认外部副作用禁止迁移重放。"
+    },
+    {
+      "id": "DD-028",
+      "basic_id": "BD-MOD-22",
+      "title": "Rust SDK / Host SPI",
+      "phase": "R1",
+      "assertion": "Rust SDK 使用与远程 API 相同鉴权和 policy evaluation，不因本地调用绕过。"
+    },
+    {
+      "id": "DD-029",
+      "basic_id": "BD-MOD-23",
+      "title": "外部系统数据命名空间",
+      "phase": "R2",
+      "assertion": "每测试独立账号/数据库 schema/fixture seed 或隔离数据集；创建与清理责任明确。"
+    },
+    {
+      "id": "DD-030",
+      "basic_id": "BD-MOD-24",
+      "title": "安全共享资源池",
+      "phase": "R3",
+      "assertion": "仅不可变且分区策略证明安全的对象可共享；身份敏感缓存必须按租户/站点分区。"
+    },
+    {
+      "id": "DD-031",
+      "basic_id": "BD-MOD-25",
+      "title": "局部故障恢复",
+      "phase": "R1-R2",
+      "assertion": "页面执行进程崩溃仅影响所属保护域；可恢复读任务，效果未知的写任务进入对账。"
+    },
+    {
+      "id": "DD-032",
+      "basic_id": "BD-DAT-01",
+      "title": "逻辑实体关系与所有权",
+      "phase": "R0",
+      "assertion": "Task/TaskNode/Context/Page/Action/Snapshot/Artifact/Capability/Lease/Audit 逻辑键与租户所有权。"
+    },
+    {
+      "id": "DD-033",
+      "basic_id": "BD-DAT-02",
+      "title": "Task 与 Effects 双状态机",
+      "phase": "R0-R2",
+      "assertion": "TaskState 与 EffectState 相互独立；终态不可隐式复活；状态变更需事件记录。"
+    },
+    {
+      "id": "DD-034",
+      "basic_id": "BD-DAT-03",
+      "title": "代际与快照字段",
+      "phase": "R2",
+      "assertion": "context_generation/page_generation/document_epoch/dom_version 四元组；旧引用失效。"
+    },
+    {
+      "id": "DD-035",
+      "basic_id": "BD-DAT-04",
+      "title": "持久化与保留分层",
+      "phase": "R2",
+      "assertion": "配置/审计/结果可持久化；凭证与网页正文隔离；所有 artifact 有 TTL 与删除证明。"
+    },
+    {
+      "id": "DD-036",
+      "basic_id": "BD-IF-01",
+      "title": "Agent Native Control API",
+      "phase": "R0-R2",
+      "assertion": "HTTP/JSON v1 草案：task/context/page/snapshot/action 与异步操作结果；同步查询不隐含无限等待。"
+    },
+    {
+      "id": "DD-037",
+      "basic_id": "BD-IF-02",
+      "title": "版本化事件流",
+      "phase": "R2",
+      "assertion": "事件 envelope 含 stream_id/seq/cursor/time/causal refs，断链支持游标恢复或 GAP。"
+    },
+    {
+      "id": "DD-038",
+      "basic_id": "BD-IF-03",
+      "title": "Rust SDK 绑定",
+      "phase": "R1",
+      "assertion": "SDK 输入输出与 Native API 的语义等价；错误类别一致；强制调用策略检查。"
+    },
+    {
+      "id": "DD-039",
+      "basic_id": "BD-IF-04",
+      "title": "Playwright Bridge 契约",
+      "phase": "R2",
+      "assertion": "Playwright Test fixture 与 TS 类 Playwright API 子集；版本、限制、未实现清单对外暴露。"
+    },
+    {
+      "id": "DD-040",
+      "basic_id": "BD-IF-05",
+      "title": "BiDi 规划接口",
+      "phase": "R3",
+      "assertion": "WebDriver BiDi 必须逐模块 conformance；不得推断为原版 Playwright 浏览器驱动。"
+    },
+    {
+      "id": "DD-041",
+      "basic_id": "BD-IF-06",
+      "title": "CI/调度器接口",
+      "phase": "R2",
+      "assertion": "批量提交/取消/状态/报告/trace，保持任务幂等标识和租户隔离。"
+    },
+    {
+      "id": "DD-042",
+      "basic_id": "BD-IF-07",
+      "title": "网络策略接口",
+      "phase": "R1",
+      "assertion": "允许域/代理/目的 IP 过滤/下载上传许可，全路径 deny-by-default；每跳重评估。"
+    },
+    {
+      "id": "DD-043",
+      "basic_id": "BD-IF-08",
+      "title": "Telemetry 数据出口",
+      "phase": "R0-R2",
+      "assertion": "OTel trace/metrics 接口，Prometheus exposition 可选；聚合必须隐藏高基数秘密标签。"
+    },
+    {
+      "id": "DD-044",
+      "basic_id": "BD-IF-09",
+      "title": "能力发现与协商",
+      "phase": "R2",
+      "assertion": "返回 engine_id/backend/version/feature/support/reason；显式 backend 选择不静默降级。"
+    },
+    {
+      "id": "DD-045",
+      "basic_id": "BD-SEC-01",
+      "title": "Agent/RBAC 与 Policy Decision",
+      "phase": "R1-R2",
+      "assertion": "租户、Agent、Task、Context 资源 ACL；allowed_origins + actions + purpose 的最小权限。"
+    },
+    {
+      "id": "DD-046",
+      "basic_id": "BD-SEC-02",
+      "title": "沙箱与站点隔离",
+      "phase": "R1",
+      "assertion": "不可信 JS 在受限执行进程；Linux OS 沙箱测试未通过不得开启公网。"
+    },
+    {
+      "id": "DD-047",
+      "basic_id": "BD-SEC-03",
+      "title": "Origin/CORS/CSP 与安全降级",
+      "phase": "R1",
+      "assertion": "依已支持 Web 语义实施；无法保证安全边界的 API 一律拒绝。"
+    },
+    {
+      "id": "DD-048",
+      "basic_id": "BD-SEC-04",
+      "title": "网络出口与 SSRF",
+      "phase": "R1",
+      "assertion": "DNS 解析→策略→连接后地址审计，redirect/WebSocket/代理每跳独立检查。"
+    },
+    {
+      "id": "DD-049",
+      "basic_id": "BD-SEC-05",
+      "title": "不可信内容与提示注入",
+      "phase": "R2",
+      "assertion": "页面、ARIA、网页工具结果为 untrusted；不能提升操作权；结构化动作走独立 policy gate。"
+    },
+    {
+      "id": "DD-050",
+      "basic_id": "BD-SEC-06",
+      "title": "高风险动作审批",
+      "phase": "R2",
+      "assertion": "提交/支付/删除/上传分类并按策略审批；审批 token 与动作指纹/过期时间绑定。"
+    },
+    {
+      "id": "DD-051",
+      "basic_id": "BD-SEC-07",
+      "title": "凭证、证据与数据保护",
+      "phase": "R2",
+      "assertion": "短期凭证代理、审计脱敏、加密和独立租户证据访问；默认无敏感正文。"
+    },
+    {
+      "id": "DD-052",
+      "basic_id": "BD-SEC-08",
+      "title": "依赖与供应链",
+      "phase": "R1",
+      "assertion": "cargo.lock、SBOM、许可证审查、签名构建与漏洞响应门槛。"
+    },
+    {
+      "id": "DD-053",
+      "basic_id": "BD-NFR-01",
+      "title": "受支持行为正确性与覆盖率",
+      "phase": "R1-R4",
+      "assertion": "固定候选分母、已支持通过率和支持覆盖率分开报告；独立留出集不计为开发选择集。"
+    },
+    {
+      "id": "DD-054",
+      "basic_id": "BD-NFR-02",
+      "title": "性能预算与严谨 A/B",
+      "phase": "R0-R3",
+      "assertion": "有效吞吐完整时间窗、进程树 RSS/CPU、随机化顺序、5 轮与 95% CI；正确性先于快慢。"
+    },
+    {
+      "id": "DD-055",
+      "basic_id": "BD-NFR-03",
+      "title": "稳定性、恢复与公平",
+      "phase": "R2-R3",
+      "assertion": "60min 压测、1000 轮 Context 清理、故障局部性、有界排队和租户公平。"
+    },
+    {
+      "id": "DD-056",
+      "basic_id": "BD-NFR-04",
+      "title": "数据安全与平台支持",
+      "phase": "R1-R2",
+      "assertion": "Linux 主支持、Windows 实验；安全失败即阻断；公开部署前独立门禁。"
+    },
+    {
+      "id": "DD-057",
+      "basic_id": "BD-NFR-05",
+      "title": "可观测、成本与可重复",
+      "phase": "R2-R3",
+      "assertion": "trace 全覆盖、可复现 fixture、按有效任务核算 CPU·s/GB·s/token/请求；模型版本固定。"
+    },
+    {
+      "id": "DD-058",
+      "basic_id": "BD-NFR-06",
+      "title": "Must 测试追踪强制",
+      "phase": "R1",
+      "assertion": "每 Must 需求至少一个计划测试 ID；未执行不得写已通过；证据链接验收时补齐。"
+    },
+    {
+      "id": "DD-059",
+      "basic_id": "BD-TST-01",
+      "title": "WPT 冻结集与留出集",
+      "phase": "R1-R4",
+      "assertion": "manifest commit/hash、candidate/pass/fail/skip/unsupported 独立列示，留出集只在评估时开放。"
+    },
+    {
+      "id": "DD-060",
+      "basic_id": "BD-TST-02",
+      "title": "Chromium 基线与 A/B",
+      "phase": "R0-R3",
+      "assertion": "冻结硬件/浏览器/任务/安全/超时、随机化 A/B、多轮有效吞吐报告。"
+    },
+    {
+      "id": "DD-061",
+      "basic_id": "BD-TST-03",
+      "title": "页面、Context 与故障注入",
+      "phase": "R1-R3",
+      "assertion": "同页写入冲突/代际/取消树/沙箱崩溃/并行外部数据隔离的完整矩阵。"
+    },
+    {
+      "id": "DD-062",
+      "basic_id": "BD-TST-04",
+      "title": "安全威胁与对抗集",
+      "phase": "R1-R2",
+      "assertion": "SSRF、跨域、残留密钥、Prompt Injection、高风险动作、人造沙箱逃逸负例。"
+    },
+    {
+      "id": "DD-063",
+      "basic_id": "BD-TST-05",
+      "title": "Bridge/协议 conformance",
+      "phase": "R2-R3",
+      "assertion": "支持项通过率与整体覆盖度分别统计，未实现功能返回显式错误。"
+    },
+    {
+      "id": "DD-064",
+      "basic_id": "BD-OPS-01",
+      "title": "Linux Sandbox 部署与 Windows 实验",
+      "phase": "R1",
+      "assertion": "linux x86_64 验收基线、非 root、容器/OS sandbox 双层策略；Windows 只开发验证。"
+    },
+    {
+      "id": "DD-065",
+      "basic_id": "BD-OPS-02",
+      "title": "发布 Gate 与回退",
+      "phase": "R0-R4",
+      "assertion": "阶段门槛独立评估；沙箱/能力不符合立即回退；禁止隐式 Chromium fallback。"
+    },
+    {
+      "id": "DD-066",
+      "basic_id": "BD-OPS-03",
+      "title": "日志、资源与事故流程",
+      "phase": "R2",
+      "assertion": "脱敏与审计分流，OOM/sandbox violation/泄露分级处理，证据保全与最小告警。"
+    },
+    {
+      "id": "DD-067",
+      "basic_id": "BD-MOD-26",
+      "title": "Web Agent/Event Loop执行所有权",
+      "phase": "R1",
+      "assertion": "Agent拥有event loop；Realm不等于独立事件循环；iframe同步访问与微任务按规范串行。"
+    },
+    {
+      "id": "DD-068",
+      "basic_id": "BD-MOD-27",
+      "title": "依赖感知页面状态向量",
+      "phase": "R2",
+      "assertion": "导航/滚动/焦点/CSS/布局/策略修订按Action依赖集校验；Dom版本不足以防误点击。"
+    },
+    {
+      "id": "DD-069",
+      "basic_id": "BD-MOD-28",
+      "title": "Dynamic Locator与Actionability",
+      "phase": "R2",
+      "assertion": "区分STRICT_CAS及DYNAMIC_LOCATOR；重解析仅发生在副作用前并检查可见/稳定/可点击等。"
+    },
+    {
+      "id": "DD-070",
+      "basic_id": "BD-MOD-29",
+      "title": "R0 Policy/Telemetry最小实现",
+      "phase": "R0",
+      "assertion": "R0 Task API必须有可鉴权主体/授权判定/审计/指标；不能让依赖模块在R1/R2才首次实现。"
+    },
+    {
+      "id": "DD-071",
+      "basic_id": "BD-MOD-30",
+      "title": "OS强制资源上限与成本统计",
+      "phase": "R0-R2",
+      "assertion": "Admission预算非内存硬保证；CPU/内存/PID/FD多维限制；同步死循环进程级中止，PSS/cgroup口径并行报告。"
+    },
+    {
+      "id": "DD-072",
+      "basic_id": "BD-MOD-31",
+      "title": "页面自发网络效果分类和限制",
+      "phase": "R1-R2",
+      "assertion": "read_only为意图不代表无写；脚本发送fetch/beacon/ws导航须受Network Broker与副作用账本约束。"
+    },
+    {
+      "id": "DD-073",
+      "basic_id": "BD-DAT-05",
+      "title": "逐动作EffectRecord账本与任务聚合",
+      "phase": "R1-R2",
+      "assertion": "Task effects_state仅摘要；Action级效果含提交点、未知状态、对账；崩溃后可查询与不丢失。"
+    },
+    {
+      "id": "DD-074",
+      "basic_id": "BD-IF-10",
+      "title": "ActionStatus与幂等键对账API",
+      "phase": "R2",
+      "assertion": "POST返回202后必须能GET动作与幂等键状态；同键不同payload拒绝；未知外部效果禁止重发。"
+    },
+    {
+      "id": "DD-075",
+      "basic_id": "BD-IF-11",
+      "title": "独立Navigate与SSE恢复接口",
+      "phase": "R2",
+      "assertion": "页面导航单独端点；事件游标租户绑定；EVENT_GAP必须有授权全量恢复路径。"
+    },
+    {
+      "id": "DD-076",
+      "basic_id": "BD-SEC-09",
+      "title": "AuthenticatedPrincipal服务端绑定",
+      "phase": "R0-R1",
+      "assertion": "租户/Agent身份必须从已验证令牌派生；JSON身份字段只能一致性检查不得决策授权。"
+    },
+    {
+      "id": "DD-077",
+      "basic_id": "BD-SEC-10",
+      "title": "安全Context Pool租户与站点边界",
+      "phase": "R1-R3",
+      "assertion": "跨租户只可共享经核验无会话只读组件；禁止重用存活脚本进程与仅清Cookie就转租户。"
+    },
+    {
+      "id": "DD-078",
+      "basic_id": "BD-SEC-11",
+      "title": "Site Lock与跨源响应可见性",
+      "phase": "R1",
+      "assertion": "受限渲染进程收到的敏感跨站响应必须经Broker来源与Site约束，不能只实现出站ACL。"
+    },
+    {
+      "id": "DD-079",
+      "basic_id": "BD-NFR-07",
+      "title": "行为配对非劣性与性能主张门槛",
+      "phase": "R3",
+      "assertion": "先审核逐类任务成功率与语义结果配对，再测1.20x吞吐；完整任务/安全/版本冻结。"
+    },
+    {
+      "id": "DD-080",
+      "basic_id": "BD-TST-06",
+      "title": "设计—测试双向验证和阻断门槛",
+      "phase": "R0-R4",
+      "assertion": "源需求映射≠用例实现；每BD有测试计划记录，真实脚本/证据/状态独立，P0红测阻断冻结。"
+    },
+    {
+      "id": "DD-081",
+      "basic_id": "BD-OPS-04",
+      "title": "红队整改与ADR冻结门槛",
+      "phase": "R0-R3",
+      "assertion": "ADR-RED-001..006以及P0用例不得被静态审核绿灯替代，证据与commit不可伪造。"
+    }
+  ],
+  "test_cases": [
+    {
+      "id": "UT-BD-001",
+      "type": "UT",
+      "phase": "R0",
+      "stimulus": "固定 fixture/seed/backend/Policy；构造DAG 环检测/依赖传播正常与异常分支，注入 timeout/cancel 或权限拒绝；与冻结 oracle 比较",
+      "oracle": "Cycle/Cancelled propagation",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "crates/aiweb-core/src/graph.rs",
+      "coverage": "仅 Fixture 层部分断言；群组整体验收未满足"
+    },
+    {
+      "id": "IT-BD-002",
+      "type": "IT",
+      "phase": "R0",
+      "stimulus": "固定 fixture/seed/backend/Policy；构造任务与 effects_state 正交正常与异常分支，注入 timeout/cancel 或权限拒绝；与冻结 oracle 比较",
+      "oracle": "超时 POST 与已取消 Task 并存",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "PERF-BD-003",
+      "type": "PERF",
+      "phase": "R0",
+      "stimulus": "固定 fixture/seed/backend/Policy；构造资源准入与背压正常与异常分支，注入 timeout/cancel 或权限拒绝；与冻结 oracle 比较",
+      "oracle": "资源超额 queue/reject，进程树无 OOM",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "IT-BD-004",
+      "type": "IT",
+      "phase": "R1",
+      "stimulus": "固定 fixture/seed/backend/Policy；构造1,000 次 Context 生命周期正常与异常分支，注入 timeout/cancel 或权限拒绝；与冻结 oracle 比较",
+      "oracle": "旧租户 Key 0 泄露",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "DIFF-BD-005",
+      "type": "DIFF",
+      "phase": "R1",
+      "stimulus": "固定 fixture/seed/backend/Policy；构造HTML/DOM/JS 事件顺序正常与异常分支，注入 timeout/cancel 或权限拒绝；与冻结 oracle 比较",
+      "oracle": "脚本-微任务-事件时序 oracle",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "SEC-BD-006",
+      "type": "SEC",
+      "phase": "R1",
+      "stimulus": "固定 fixture/seed/backend/Policy；构造OS 沙箱/跨站/SSRF正常与异常分支，注入 timeout/cancel 或权限拒绝；与冻结 oracle 比较",
+      "oracle": "高风险负例 0 成功",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "IT-BD-007",
+      "type": "IT",
+      "phase": "R2",
+      "stimulus": "固定 fixture/seed/backend/Policy；构造同页 5 读 / 2 写冲突正常与异常分支，注入 timeout/cancel 或权限拒绝；与冻结 oracle 比较",
+      "oracle": "版本一致，无误提交",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "crates/aiweb-core/tests/red_regressions.rs",
+      "coverage": "仅 Fixture 层部分断言；群组整体验收未满足"
+    },
+    {
+      "id": "IT-BD-008",
+      "type": "IT",
+      "phase": "R2",
+      "stimulus": "固定 fixture/seed/backend/Policy；构造导航与跨文档代际失效正常与异常分支，注入 timeout/cancel 或权限拒绝；与冻结 oracle 比较",
+      "oracle": "旧 locator 全部 STALE_SNAPSHOT",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "crates/aiweb-core/src/action.rs",
+      "coverage": "仅 Fixture 层部分断言；群组整体验收未满足"
+    },
+    {
+      "id": "DIFF-BD-009",
+      "type": "DIFF",
+      "phase": "R2",
+      "stimulus": "固定 fixture/seed/backend/Policy；构造CSS/Geometry/截图一致正常与异常分支，注入 timeout/cancel 或权限拒绝；与冻结 oracle 比较",
+      "oracle": "可见性和截图差分指标",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "SEC-BD-010",
+      "type": "SEC",
+      "phase": "R2",
+      "stimulus": "固定 fixture/seed/backend/Policy；构造Prompt Injection/审批正常与异常分支，注入 timeout/cancel 或权限拒绝；与冻结 oracle 比较",
+      "oracle": "恶意页面不得升级权限",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "IT-BD-011",
+      "type": "IT",
+      "phase": "R2",
+      "stimulus": "固定 fixture/seed/backend/Policy；构造Playwright fixture/API 子集正常与异常分支，注入 timeout/cancel 或权限拒绝；与冻结 oracle 比较",
+      "oracle": "已支持测试 ≥98%",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "tests/playwright/specs/chromium-oracle.spec.ts",
+      "coverage": "仅 Chromium Oracle；不证明 Native"
+    },
+    {
+      "id": "IT-BD-012",
+      "type": "IT",
+      "phase": "R2",
+      "stimulus": "固定 fixture/seed/backend/Policy；构造Playwright 服务端数据隔离正常与异常分支，注入 timeout/cancel 或权限拒绝；与冻结 oracle 比较",
+      "oracle": "同账号/shared DB 无串扰",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "ST-BD-013",
+      "type": "ST",
+      "phase": "R2",
+      "stimulus": "固定 fixture/seed/backend/Policy；构造故障局部性/uncertain effect正常与异常分支，注入 timeout/cancel 或权限拒绝；与冻结 oracle 比较",
+      "oracle": "页面崩溃不影响其他 Context",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "ST-BD-014",
+      "type": "ST",
+      "phase": "R2",
+      "stimulus": "固定 fixture/seed/backend/Policy；构造8/16/32 并发 60 min正常与异常分支，注入 timeout/cancel 或权限拒绝；与冻结 oracle 比较",
+      "oracle": "非预期 runtime 崩溃 0",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "PERF-BD-015",
+      "type": "PERF",
+      "phase": "R3",
+      "stimulus": "固定 fixture/seed/backend/Policy；构造A-E 同任务吞吐 A/B正常与异常分支，注入 timeout/cancel 或权限拒绝；与冻结 oracle 比较",
+      "oracle": "≥1.20x 16/32 某档 + 资源门槛",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "PERF-BD-016",
+      "type": "PERF",
+      "phase": "R3",
+      "stimulus": "固定 fixture/seed/backend/Policy；构造公平与长短混合正常与异常分支，注入 timeout/cancel 或权限拒绝；与冻结 oracle 比较",
+      "oracle": "P99 wait+饥饿事件报告",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "PERF-BD-017",
+      "type": "PERF",
+      "phase": "R3",
+      "stimulus": "固定 fixture/seed/backend/Policy；构造Agent Token 成本 A/B正常与异常分支，注入 timeout/cancel 或权限拒绝；与冻结 oracle 比较",
+      "oracle": "固定模型/tokenizer/准确性",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "WPT-BD-018",
+      "type": "WPT",
+      "phase": "R1-R4",
+      "stimulus": "固定 fixture/seed/backend/Policy；构造固定 WPT + holdout 分母正常与异常分支，注入 timeout/cancel 或权限拒绝；与冻结 oracle 比较",
+      "oracle": "pass/fail/skip/unsupported 明细",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "RED-BD-019",
+      "type": "RED",
+      "phase": "R1",
+      "stimulus": "构造同源 top window/iframe 的同步互访，Promise 微任务和 MutationObserver 混合操作；与 HTML 规范 oracle 对照",
+      "oracle": "任务源/微任务次序一致；live DOM 不出现跨 Realm 并行写",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "RED-BD-020",
+      "type": "RED",
+      "phase": "R2-R3",
+      "stimulus": "固定 DOM 仅修改 scroll、CSS animation、focus、overlay 后提交旧坐标与 locator",
+      "oracle": "StrictCAS 拒绝旧依赖；DynamicLocator 在真实 hit-test 通过后才派发",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "RED-BD-021",
+      "type": "RED",
+      "phase": "R2-R3",
+      "stimulus": "在等待按钮期间多次 React/Vue style 重渲染替换同名按钮",
+      "oracle": "只能在首次派发前重定位；提交事件至多发送一次",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "RED-BD-022",
+      "type": "RED",
+      "phase": "R1",
+      "stimulus": "read_only 页面自动执行 POST/Beacon/WS，注入 TCP 断线与重试",
+      "oracle": "Broker 默认拒绝未获权写；未知结果记录 uncertain，无二次提交",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "RED-BD-023",
+      "type": "RED",
+      "phase": "R2-R3",
+      "stimulus": "同一幂等键分别提交相同负载、不同摘要，并注入 202 回执丢失",
+      "oracle": "同摘要返回原 action；不同摘要 409；状态查询仍可用",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "crates/aiweb-core/tests/red_regressions.rs",
+      "coverage": "仅 Fixture 层部分断言；群组整体验收未满足"
+    },
+    {
+      "id": "RED-BD-024",
+      "type": "RED",
+      "phase": "R1",
+      "stimulus": "以 tenant-A 凭据伪造 tenant-B body identity 与对象 ID",
+      "oracle": "无跨租户可见/操作；审计归属真实 principal",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "crates/aiweb-core/tests/red_regressions.rs",
+      "coverage": "仅 Fixture 层部分断言；群组整体验收未满足"
+    },
+    {
+      "id": "RED-BD-025",
+      "type": "RED",
+      "phase": "R1",
+      "stimulus": "tenant-A 页面写入 cookie/cache/JS memory 标记，再销毁并创建 tenant-B",
+      "oracle": "活动脚本进程不跨租户复用，0 残留/密钥泄漏",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "RED-BD-026",
+      "type": "RED",
+      "phase": "R1",
+      "stimulus": "cross-site iframe、敏感 JSON、CORS preflight、DNS rebinding、重定向和代理升级",
+      "oracle": "不允许越权敏感响应分发或禁止 IP 的连接",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "RED-BD-027",
+      "type": "RED",
+      "phase": "R1",
+      "stimulus": "禁止策略/监控初始化后启动 R0 控制面",
+      "oracle": "API fail closed，基础 auth、audit、metrics 可观测",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "RED-BD-028",
+      "type": "RED",
+      "phase": "R2-R3",
+      "stimulus": "同任务 2 已确认 effect + 1 网络已发未确认 effect，然后取消任务",
+      "oracle": "逐动作账本不丢，任务为 Cancelled + Uncertain",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "crates/aiweb-core/tests/red_regressions.rs",
+      "coverage": "仅 Fixture 层部分断言；群组整体验收未满足"
+    },
+    {
+      "id": "RED-BD-029",
+      "type": "RED",
+      "phase": "R2-R3",
+      "stimulus": "JS while(true)、FD/PID 疲劳与强制 OOM，并取消请求",
+      "oracle": "Supervisor 进程树强制回收，其它租户不受影响",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "RED-BD-030",
+      "type": "RED",
+      "phase": "R2-R3",
+      "stimulus": "Page 创建后多次 navigate，构造 SSE seq Gap 与游标过期",
+      "oracle": "能按导航 ID 查状态；EVENT_GAP 后租户授权全量恢复",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "RED-BD-031",
+      "type": "RED",
+      "phase": "R2-R3",
+      "stimulus": "Native 98% 通过 vs Chromium 100% + Native 1.2x 吞吐",
+      "oracle": "非劣性 Gate 拒绝等价吞吐结论，失败全部公开",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "RED-BD-032",
+      "type": "RED",
+      "phase": "R2-R3",
+      "stimulus": "删除设计到测试的部分 PLAN 映射并伪造状态为通过",
+      "oracle": "静态/CI Gate 失败，真实测试无证据不可通过",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "RED-BD-033",
+      "type": "RED",
+      "phase": "R2-R3",
+      "stimulus": "两个 test id 使用同一服务器账号、同 DB 行写入",
+      "oracle": "测试命名空间管理发现冲突/阻断，清理不可遗漏",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "RED-BD-034",
+      "type": "RED",
+      "phase": "R2-R3",
+      "stimulus": "构造共享 file-backed pages 和 PSS/RSS 不一致",
+      "oracle": "明确分列进程树 RSS sum/PSS/cgroup 与计量方法",
+      "evidence": "commit SHA、fixture hash、运行环境、日志/trace、机器可读结果",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "RED-DD-001",
+      "issue": "DADV-01",
+      "severity": "P0",
+      "headline": "表单值绕过 DOM 变更版本",
+      "dd_ids": [
+        "DD-014",
+        "DD-068"
+      ],
+      "phase": "R1-R4",
+      "type": "RED",
+      "stimulus": "表单值绕过 DOM 变更版本",
+      "oracle": "必须满足第17.2节的不可违反不变量，并保留可复现证据",
+      "evidence": "原始日志、失败输入、版本、环境、代码SHA、审计回执",
+      "status": "未执行",
+      "script": "crates/aiweb-core/tests/red_regressions.rs",
+      "coverage": "仅 Fixture 层部分断言；未覆盖真实内核/安全/网络"
+    },
+    {
+      "id": "RED-DD-002",
+      "issue": "DADV-02",
+      "severity": "P0",
+      "headline": "一次 Action 可触发多条外部效果",
+      "dd_ids": [
+        "DD-022",
+        "DD-072",
+        "DD-073"
+      ],
+      "phase": "R1-R4",
+      "type": "RED",
+      "stimulus": "一次 Action 可触发多条外部效果",
+      "oracle": "必须满足第17.2节的不可违反不变量，并保留可复现证据",
+      "evidence": "原始日志、失败输入、版本、环境、代码SHA、审计回执",
+      "status": "未执行",
+      "script": "crates/aiweb-core/tests/red_regressions.rs",
+      "coverage": "仅 Fixture 层部分断言；未覆盖真实内核/安全/网络"
+    },
+    {
+      "id": "RED-DD-003",
+      "issue": "DADV-03",
+      "severity": "P0",
+      "headline": "失效租约 Worker 仍向外发送",
+      "dd_ids": [
+        "DD-010",
+        "DD-027",
+        "DD-072"
+      ],
+      "phase": "R1-R4",
+      "type": "RED",
+      "stimulus": "失效租约 Worker 仍向外发送",
+      "oracle": "必须满足第17.2节的不可违反不变量，并保留可复现证据",
+      "evidence": "原始日志、失败输入、版本、环境、代码SHA、审计回执",
+      "status": "未执行",
+      "script": "crates/aiweb-core/tests/red_regressions.rs",
+      "coverage": "仅 Fixture 层部分断言；未覆盖真实内核/安全/网络"
+    },
+    {
+      "id": "RED-DD-004",
+      "issue": "DADV-04",
+      "severity": "P0",
+      "headline": "跨源响应与凭证错配",
+      "dd_ids": [
+        "DD-015",
+        "DD-047",
+        "DD-078"
+      ],
+      "phase": "R1-R4",
+      "type": "RED",
+      "stimulus": "跨源响应与凭证错配",
+      "oracle": "必须满足第17.2节的不可违反不变量，并保留可复现证据",
+      "evidence": "原始日志、失败输入、版本、环境、代码SHA、审计回执",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "RED-DD-005",
+      "issue": "DADV-05",
+      "severity": "P0",
+      "headline": "共享缓存泄露认证内容",
+      "dd_ids": [
+        "DD-011",
+        "DD-030",
+        "DD-077"
+      ],
+      "phase": "R1-R4",
+      "type": "RED",
+      "stimulus": "共享缓存泄露认证内容",
+      "oracle": "必须满足第17.2节的不可违反不变量，并保留可复现证据",
+      "evidence": "原始日志、失败输入、版本、环境、代码SHA、审计回执",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "RED-DD-006",
+      "issue": "DADV-06",
+      "severity": "P0",
+      "headline": "快照一致性被误认为跨 Frame 原子",
+      "dd_ids": [
+        "DD-013",
+        "DD-067",
+        "DD-034"
+      ],
+      "phase": "R1-R4",
+      "type": "RED",
+      "stimulus": "快照一致性被误认为跨 Frame 原子",
+      "oracle": "必须满足第17.2节的不可违反不变量，并保留可复现证据",
+      "evidence": "原始日志、失败输入、版本、环境、代码SHA、审计回执",
+      "status": "未执行",
+      "script": "crates/aiweb-core/tests/red_regressions.rs",
+      "coverage": "仅 Fixture 层部分断言；未覆盖真实内核/安全/网络"
+    },
+    {
+      "id": "RED-DD-007",
+      "issue": "DADV-07",
+      "severity": "P0",
+      "headline": "Playwright 风格 Locator 伪兼容",
+      "dd_ids": [
+        "DD-020",
+        "DD-026",
+        "DD-069"
+      ],
+      "phase": "R1-R4",
+      "type": "RED",
+      "stimulus": "Playwright 风格 Locator 伪兼容",
+      "oracle": "必须满足第17.2节的不可违反不变量，并保留可复现证据",
+      "evidence": "原始日志、失败输入、版本、环境、代码SHA、审计回执",
+      "status": "未执行",
+      "script": "crates/aiweb-core/tests/red_regressions.rs",
+      "coverage": "仅 Fixture 层部分断言；未覆盖真实内核/安全/网络"
+    },
+    {
+      "id": "RED-DD-008",
+      "issue": "DADV-08",
+      "severity": "P0",
+      "headline": "确认级别误导业务成功",
+      "dd_ids": [
+        "DD-073",
+        "DD-074",
+        "DD-033"
+      ],
+      "phase": "R1-R4",
+      "type": "RED",
+      "stimulus": "确认级别误导业务成功",
+      "oracle": "必须满足第17.2节的不可违反不变量，并保留可复现证据",
+      "evidence": "原始日志、失败输入、版本、环境、代码SHA、审计回执",
+      "status": "未执行",
+      "script": "crates/aiweb-core/tests/red_regressions.rs",
+      "coverage": "仅 Fixture 层部分断言；未覆盖真实内核/安全/网络"
+    },
+    {
+      "id": "RED-DD-009",
+      "issue": "DADV-09",
+      "severity": "P0",
+      "headline": "审批绕过跳转及动态目标",
+      "dd_ids": [
+        "DD-050",
+        "DD-048",
+        "DD-076"
+      ],
+      "phase": "R1-R4",
+      "type": "RED",
+      "stimulus": "审批绕过跳转及动态目标",
+      "oracle": "必须满足第17.2节的不可违反不变量，并保留可复现证据",
+      "evidence": "原始日志、失败输入、版本、环境、代码SHA、审计回执",
+      "status": "未执行",
+      "script": "crates/aiweb-core/tests/red_regressions.rs",
+      "coverage": "仅 Fixture 层部分断言；未覆盖真实内核/安全/网络"
+    },
+    {
+      "id": "RED-DD-010",
+      "issue": "DADV-10",
+      "severity": "P0",
+      "headline": "同页并发写事件序列被错误并行化",
+      "dd_ids": [
+        "DD-012",
+        "DD-017",
+        "DD-067"
+      ],
+      "phase": "R1-R4",
+      "type": "RED",
+      "stimulus": "同页并发写事件序列被错误并行化",
+      "oracle": "必须满足第17.2节的不可违反不变量，并保留可复现证据",
+      "evidence": "原始日志、失败输入、版本、环境、代码SHA、审计回执",
+      "status": "未执行",
+      "script": "crates/aiweb-core/tests/red_regressions.rs",
+      "coverage": "仅 Fixture 层部分断言；未覆盖真实内核/安全/网络"
+    },
+    {
+      "id": "RED-DD-011",
+      "issue": "DADV-11",
+      "severity": "P1",
+      "headline": "多流 SSE 光标丢失事件",
+      "dd_ids": [
+        "DD-024",
+        "DD-037",
+        "DD-075"
+      ],
+      "phase": "R1-R4",
+      "type": "RED",
+      "stimulus": "多流 SSE 光标丢失事件",
+      "oracle": "必须满足第17.2节的不可违反不变量，并保留可复现证据",
+      "evidence": "原始日志、失败输入、版本、环境、代码SHA、审计回执",
+      "status": "未执行",
+      "script": "crates/aiweb-core/tests/red_regressions.rs",
+      "coverage": "仅 Fixture 层部分断言；未覆盖真实内核/安全/网络"
+    },
+    {
+      "id": "RED-DD-012",
+      "issue": "DADV-12",
+      "severity": "P1",
+      "headline": "单调时钟在重启/迁移后不可比较",
+      "dd_ids": [
+        "DD-010",
+        "DD-027",
+        "DD-034"
+      ],
+      "phase": "R1-R4",
+      "type": "RED",
+      "stimulus": "单调时钟在重启/迁移后不可比较",
+      "oracle": "必须满足第17.2节的不可违反不变量，并保留可复现证据",
+      "evidence": "原始日志、失败输入、版本、环境、代码SHA、审计回执",
+      "status": "未执行",
+      "script": "crates/aiweb-core/tests/red_regressions.rs",
+      "coverage": "仅 Fixture 层部分断言；未覆盖真实内核/安全/网络"
+    },
+    {
+      "id": "RED-DD-013",
+      "issue": "DADV-13",
+      "severity": "P1",
+      "headline": "SQL 跨租户外键与清理缺口",
+      "dd_ids": [
+        "DD-032",
+        "DD-035",
+        "DD-073"
+      ],
+      "phase": "R1-R4",
+      "type": "RED",
+      "stimulus": "SQL 跨租户外键与清理缺口",
+      "oracle": "必须满足第17.2节的不可违反不变量，并保留可复现证据",
+      "evidence": "原始日志、失败输入、版本、环境、代码SHA、审计回执",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "RED-DD-014",
+      "issue": "DADV-14",
+      "severity": "P1",
+      "headline": "IPC 反序列化与伪造 Renderer 身份",
+      "dd_ids": [
+        "DD-004",
+        "DD-028",
+        "DD-076"
+      ],
+      "phase": "R1-R4",
+      "type": "RED",
+      "stimulus": "IPC 反序列化与伪造 Renderer 身份",
+      "oracle": "必须满足第17.2节的不可违反不变量，并保留可复现证据",
+      "evidence": "原始日志、失败输入、版本、环境、代码SHA、审计回执",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "RED-DD-015",
+      "issue": "DADV-15",
+      "severity": "P1",
+      "headline": "无限流请求绕过预算",
+      "dd_ids": [
+        "DD-023",
+        "DD-071",
+        "DD-072"
+      ],
+      "phase": "R1-R4",
+      "type": "RED",
+      "stimulus": "无限流请求绕过预算",
+      "oracle": "必须满足第17.2节的不可违反不变量，并保留可复现证据",
+      "evidence": "原始日志、失败输入、版本、环境、代码SHA、审计回执",
+      "status": "未执行",
+      "script": "crates/aiweb-core/tests/red_regressions.rs",
+      "coverage": "仅 Fixture 层部分断言；未覆盖真实内核/安全/网络"
+    },
+    {
+      "id": "RED-DD-016",
+      "issue": "DADV-16",
+      "severity": "P1",
+      "headline": "资源成本统计漏算控制面与并行公共服务",
+      "dd_ids": [
+        "DD-023",
+        "DD-054",
+        "DD-079"
+      ],
+      "phase": "R1-R4",
+      "type": "RED",
+      "stimulus": "资源成本统计漏算控制面与并行公共服务",
+      "oracle": "必须满足第17.2节的不可违反不变量，并保留可复现证据",
+      "evidence": "原始日志、失败输入、版本、环境、代码SHA、审计回执",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "RED-DD-017",
+      "issue": "DADV-17",
+      "severity": "P1",
+      "headline": "按需绘制时帧推进与可操作性等待死锁",
+      "dd_ids": [
+        "DD-003",
+        "DD-018",
+        "DD-069"
+      ],
+      "phase": "R1-R4",
+      "type": "RED",
+      "stimulus": "按需绘制时帧推进与可操作性等待死锁",
+      "oracle": "必须满足第17.2节的不可违反不变量，并保留可复现证据",
+      "evidence": "原始日志、失败输入、版本、环境、代码SHA、审计回执",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "RED-DD-018",
+      "issue": "DADV-18",
+      "severity": "P1",
+      "headline": "Playwright 等待条件宽泛且易产生假通过",
+      "dd_ids": [
+        "DD-015",
+        "DD-026",
+        "DD-063"
+      ],
+      "phase": "R1-R4",
+      "type": "RED",
+      "stimulus": "Playwright 等待条件宽泛且易产生假通过",
+      "oracle": "必须满足第17.2节的不可违反不变量，并保留可复现证据",
+      "evidence": "原始日志、失败输入、版本、环境、代码SHA、审计回执",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "RED-DD-019",
+      "issue": "DADV-19",
+      "severity": "P1",
+      "headline": "安全门槛和兼容分母被选择性稀释",
+      "dd_ids": [
+        "DD-053",
+        "DD-059",
+        "DD-080"
+      ],
+      "phase": "R1-R4",
+      "type": "RED",
+      "stimulus": "安全门槛和兼容分母被选择性稀释",
+      "oracle": "必须满足第17.2节的不可违反不变量，并保留可复现证据",
+      "evidence": "原始日志、失败输入、版本、环境、代码SHA、审计回执",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "RED-DD-020",
+      "issue": "DADV-20",
+      "severity": "P1",
+      "headline": "Prompt Injection 通过结构化摘要提权",
+      "dd_ids": [
+        "DD-049",
+        "DD-050",
+        "DD-051"
+      ],
+      "phase": "R1-R4",
+      "type": "RED",
+      "stimulus": "Prompt Injection 通过结构化摘要提权",
+      "oracle": "必须满足第17.2节的不可违反不变量，并保留可复现证据",
+      "evidence": "原始日志、失败输入、版本、环境、代码SHA、审计回执",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "RED-DD-021",
+      "issue": "DADV-21",
+      "severity": "P2",
+      "headline": "测试隔离仅限本地服务端",
+      "dd_ids": [
+        "DD-029",
+        "DD-061",
+        "DD-063"
+      ],
+      "phase": "R1-R4",
+      "type": "RED",
+      "stimulus": "测试隔离仅限本地服务端",
+      "oracle": "必须满足第17.2节的不可违反不变量，并保留可复现证据",
+      "evidence": "原始日志、失败输入、版本、环境、代码SHA、审计回执",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    },
+    {
+      "id": "RED-DD-022",
+      "issue": "DADV-22",
+      "severity": "P2",
+      "headline": "Snapshot/证据保留与复用误读",
+      "dd_ids": [
+        "DD-013",
+        "DD-025",
+        "DD-034"
+      ],
+      "phase": "R1-R4",
+      "type": "RED",
+      "stimulus": "Snapshot/证据保留与复用误读",
+      "oracle": "必须满足第17.2节的不可违反不变量，并保留可复现证据",
+      "evidence": "原始日志、失败输入、版本、环境、代码SHA、审计回执",
+      "status": "未执行",
+      "script": "",
+      "coverage": "设计计划"
+    }
+  ],
+  "declared_live_native_browser_support": false,
+  "rust_test_execution": "未执行（当前运行环境无Rust工具链）",
+  "chromium_oracle_execution": "未执行（依赖未安装）",
+  "notes": "所有56项群组/对抗计划维持未执行。部分Fixture断言不等于整体测试通过。"
+}

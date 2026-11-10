@@ -1,0 +1,73 @@
+{
+  "document_id": "AIPWE-TEST-EVIDENCE-001",
+  "date": "2026-11-10",
+  "status": "controlled_fixture_source_only",
+  "checks": {
+    "traceability_static": {
+      "command": [
+        "python3",
+        "tests/scripts/validate_traceability.py"
+      ],
+      "returncode": 0,
+      "stdout_tail": "OK: 157 requirements, 81 controls, 34 inherited + 22 red cases, all unexecuted; paths resolved\n",
+      "stderr_tail": "",
+      "passed": true
+    },
+    "inventory_unit": {
+      "command": [
+        "python3",
+        "tests/scripts/test_inventory.py"
+      ],
+      "returncode": 0,
+      "stdout_tail": "",
+      "stderr_tail": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.000s\n\nOK\n",
+      "passed": true
+    },
+    "bash_syntax": {
+      "command": [
+        "bash",
+        "-n",
+        "tests/scripts/run_all.sh",
+        "tests/scripts/run_fixture_stress.sh",
+        "tests/scripts/run_native_security_gate.sh",
+        "tests/scripts/run_native_perf_gate.sh"
+      ],
+      "returncode": 0,
+      "stdout_tail": "",
+      "stderr_tail": "",
+      "passed": true
+    },
+    "release_gate_denies_missing_evidence": {
+      "command": [
+        "python3",
+        "tests/scripts/release_gate.py"
+      ],
+      "returncode": 4,
+      "stdout_tail": "BLOCKED: no verified_execution.json from actual native Linux sandbox test run\n",
+      "stderr_tail": "",
+      "passed": true
+    },
+    "cargo_unavailable": {
+      "command": [
+        "bash",
+        "-c",
+        "command -v cargo >/dev/null 2>&1"
+      ],
+      "returncode": 1,
+      "stdout_tail": "",
+      "stderr_tail": "",
+      "passed": true
+    }
+  },
+  "limitations": [
+    "cargo and rustc absent; Rust tests not run",
+    "Playwright and Chromium not installed in this environment; oracle not run",
+    "No real browser engine or OS sandbox, ST/SEC/WPT/PERF not run"
+  ],
+  "tests_total_written_rust": 34,
+  "rust_tests_executed": 0,
+  "test_case_plan_count": 56,
+  "full_group_case_passed": 0,
+  "static_checks_passed": 5,
+  "static_checks_total": 5
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/aiweb/schemas/action-status-v1",
+  "title": "AIWEB ActionStatus — design contract ONLY, no live server in POC",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["api_version", "action_id", "backend", "dispatch", "transport_observation", "business_outcome", "effects_state", "retry_safe"],
+  "properties": {
+    "api_version": {"const": "aiweb/v1"},
+    "action_id": {"type": "string", "minLength": 1},
+    "backend": {"enum": ["aiweb-native", "chromium-oracle"]},
+    "dispatch": {"enum": ["not_started", "attempted", "rejected"]},
+    "transport_observation": {"enum": ["none", "http_response_observed", "connection_lost", "unknown"]},
+    "business_outcome": {"enum": ["unverified", "confirmed_by_trusted_reconciliation"]},
+    "effects_state": {"enum": ["none", "pending", "confirmed_transport", "uncertain", "rejected"]},
+    "retry_safe": {"type": "boolean"},
+    "http_status": {"type": ["integer", "null"], "minimum": 100, "maximum": 599}
+  }
+}

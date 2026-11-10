@@ -1,0 +1,11 @@
+{
+  "manifest_version": "aiweb.fixture.red.v1",
+  "network": "simulated_only_no_actual_egress",
+  "cases": [
+    {"id":"RED-DD-001","agents":["A","B"],"initial":{"input":"old"},"actions":["A=alpha","B=beta/old-precondition"],"expect":"B:StaleSnapshot"},
+    {"id":"RED-DD-002","effect_ids":["e1","e2","e3"],"outcomes":["http_response","http_response","connection_lost"],"expect":"e3:Uncertain,no_auto_replay"},
+    {"id":"RED-DD-003","worker_generation":4,"permit_lease_epoch":2,"active_lease_epoch":3,"expect":"StaleLease"},
+    {"id":"RED-DD-009","approved_origin":"https://fixture.invalid","redirect_origin":"https://redirect.invalid","expect":"Unauthorized"},
+    {"id":"RED-DD-010","readers":5,"writers":2,"expected_successful_writes":1,"expected_stale_writes":1}
+  ]
+}

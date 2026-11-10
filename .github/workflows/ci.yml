@@ -1,0 +1,18 @@
+name: AIWEB controlled-POC CI
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  offline-rust-tests:
+    runs-on: ubuntu-latest
+    permissions: { contents: read }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with: { components: 'rustfmt, clippy' }
+      - name: Run controlled-fixture gates
+        run: bash tests/scripts/run_all.sh
+      - name: Preserve machine-readable test inventory
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: aiweb-test-plan
+          path: tests/results/test_registry.json
